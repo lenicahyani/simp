@@ -68,7 +68,6 @@
                 <a class="nav-link" href="/worker">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Worker</span></a>
-                    <h2>hallo</h2>
             </li>
 
 
