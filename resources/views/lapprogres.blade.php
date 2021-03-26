@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', 'Costumer')
+@section('title', 'Laporan Progres')
 
 @section('breadcrumbs')
 <div class="breadcrumbs d-sm-flex align-items-center justify-content-between mb-4">
@@ -13,27 +13,44 @@
 @section('content')
 <!-- BORDERED TABLE -->
 <div class="panel">
-								<div class="panel-heading">
-									<h3 class="panel-title">Laporan Progresss</h3>
-								</div>
-								<div class="panel-body">
-									<table class="table table-bordered">
-										<thead>
-											<tr>
-												<th>Kode Proyek</th>
-												<th>Tanggal Proyek</th>
-												<th>Nama Costumer</th>
-												<th>Nama Proyek</th>
-											
-											</tr>
-										</thead>
-									
-									</table>
-								</div>
-							</div>
-							<!-- END BORDERED TABLE -->
-						</div>
-						<div class="col-md-6">
-
-                    
+	<div class="panel-heading">
+		<h3 class="panel-title">Laporan Progres</h3>
+	</div>
+	<div class="panel-body">
+		<table class="table table-bordered">
+		<thead class="thead-dark">
+			<tr>
+				<th>Kode Tugas</th>
+				<th>Kode Proyek</th>
+				<th>Nama Proyek</th>
+                <th>Deskripsi</th>
+				<th>Tim</th>
+				<th>Status</th>					
+				<th>Progres</th>	
+				</tr>
+		</thead>	
+		<tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>23-03-2021</td>
+            <td>Otto</td>
+			<td>Otto</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            </tr>
+        </tbody>						
+		</table>
+	</div>
+	</div>
+<!-- END BORDERED TABLE -->
+</div>
+<div class="col-md-6">                    
 @endsection

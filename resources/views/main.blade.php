@@ -38,15 +38,6 @@
                 </div>
                 <div class="sidebar-brand-text mx-3">SIMPRO</div>
             </a>
-
-<!-- Garis -->
-            <!-- <hr class="sidebar-divider my-0"> -->
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="home" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </a> -->
                 <li class="nav-item">
                 <a class="nav-link collapsed" href="home" data-toggle="collapse" data-target="#collapseDash"
                     aria-expanded="true" aria-controls="collapseDash">
@@ -57,8 +48,6 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="/profil">Profil Saya</a>
                         <a class="collapse-item" href="cards.html">Daftar User</a>
-                        <a class="collapse-item" href="/costumer"> Costumer</a>
-                    </div>
                 </div>
             </li>
             </li>
@@ -69,16 +58,18 @@
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Worker</span></a>
             </li>
-
-
-            
-            <!-- Nav Item - Pages Collapse Menu -->
-            <!-- <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
-                </a> -->
+             <!-- Nav Item - Charts -->
+             <li class="nav-item">
+                <a class="nav-link" href="/costumer">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Customer</span></a>
+            </li>
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="/lapproyek">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Proyek</span></a>
+            </li>
                 <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseComponent"
                     aria-expanded="true" aria-controls="collapseComponent">
@@ -88,7 +79,7 @@
                 <div id="collapseComponent" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="/costumer">Costumer</a>
-                        <a class="collapse-item" href="/lapcostumer">Laporan Costumer</a>
+                        <a class="collapse-item" href="/lapproyek">Laporan Proyek</a>
                         <a class="collapse-item" href="/lapprogres">Laporan Progres</a>
                         <a class="collapse-item" href="/lapgaji">Laporan Gaji</a>
                     </div>

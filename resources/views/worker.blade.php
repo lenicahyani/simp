@@ -23,7 +23,23 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+      <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nama Anggota</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nama Anggota">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Posisi</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Frontand Web</option>
+          <option>Backand Web</option>
+          <option>UI/UX Web</option>
+          <option>Frontand Android</option>
+          <option>Backand Android</option>
+          <option>UI/UX Android</option>
+        </select>
+      </div>  
+      </form>      
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -67,8 +83,7 @@
                 <td>Larry</td>
                 <td>the Bird</td>
                 </tr>
-            </tbody>
-            </table>                      
+            </tbody>                   
             </table>
         </div>
     </div>
