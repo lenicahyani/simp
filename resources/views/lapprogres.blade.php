@@ -3,11 +3,6 @@
 @section('title', 'Laporan Progres')
 
 @section('breadcrumbs')
-<div class="breadcrumbs d-sm-flex align-items-center justify-content-between mb-4">
- 
-    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-            class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-</div>
 @endsection
 
 @section('content')
@@ -20,9 +15,11 @@
 		<table class="table table-bordered">
 		<thead class="thead-dark">
 			<tr>
+				<th>No</th>
 				<th>Kode Tugas</th>
 				<th>Kode Proyek</th>
 				<th>Nama Proyek</th>
+				<th>Nama Tugas</th>
                 <th>Deskripsi</th>
 				<th>Tim</th>
 				<th>Status</th>					
@@ -31,20 +28,26 @@
 		</thead>	
 		<tbody>
             <tr>
-            <th scope="row">1</th>
-            <td>23-03-2021</td>
-            <td>Otto</td>
-			<td>Otto</td>
+            <th scope="row">1</th>			
+            <td>TS001</td>
+            <td>SIA001</td>
+            <td>SI Akuntansi</td>
+			<td>Analisa Lapangan</td>
+			<td>-</td>
+			<td>Ivan, Bowo</td>
+			<td>Dalam Proses</td>
+			<td>30%</td>
             </tr>
             <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            </tr>
-            <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
+            <th scope="row">1</th>			
+            <td>TS002</td>
+            <td>SIA002</td>
+            <td>SI Akuntansi</td>
+			<td>Analisa Lapangan</td>
+			<td>-</td>
+			<td>Ivan, Rudi</td>
+			<td>Dalam Proses</td>
+			<td>60%</td>
             </tr>
         </tbody>						
 		</table>
